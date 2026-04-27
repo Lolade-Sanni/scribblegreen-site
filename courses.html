@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Courses &amp; Resources — Scribble Green</title>
+  <meta name="description" content="Professional courses, free templates, and premium guides from Scribble Green."/>
+  <link rel="stylesheet" href="css/styles-plus.css"/>
+
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="index.html" class="navbar__logo">
+      <span class="navbar__logo-icon"><img class="logo-icon" src="images/scribblegreen-logo.png"></span>
+    </a>
+    <ul class="navbar__nav">
+      <li><a href="about.html">About</a></li>
+      <li class="nav-dropdown">
+        <span class="nav-dropdown__label">Services <span class="material-icons-round">expand_more</span></span>
+        <div class="nav-dropdown__menu">
+          <a href="services.html">All Services</a>
+          <a href="services-consultancy.html">Consultancy</a>
+          <a href="services-research.html">Research &amp; Writing</a>
+          <a href="services-ai.html">AI &amp; Digital Innovation</a>
+        </div>
+      </li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="events-and-insights.html">Events & Insights</a></li>
+      <li class="nav-dropdown">
+        <span class="nav-dropdown__label">Career <span class="material-icons-round">expand_more</span></span>
+        <div class="nav-dropdown__menu">
+          <a href="ambassador.html">Student Ambassador</a>
+          <a href="join-team.html">Join Our Team</a>
+
+        </div>
+      </li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="navbar__cta">
+      <!--            <a href="cv-builder.html" class="btn btn-outline">CV Builder</a>-->
+    </div>
+    <div class="navbar__hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="navbar__mobile">
+  <span class="section-label">Scribblegreen</span>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <span class="section-label">Services</span>
+  <a href="services.html">All Services</a>
+  <a href="services-consultancy.html">Consultancy</a>
+  <a href="services-research.html">Research & Writing</a>
+  <a href="services-ai.html">AI & Digital Innovation</a>
+  <span class="section-label">Learning</span>
+  <a href="courses.html">Courses</a>
+  <a href="events-and-insights.html">Events</a>
+  <a href="courses.html#resources">Resources</a>
+  <span class="section-label">Career</span>
+  <a href="ambassador.html">Student Ambassador</a>
+  <a href="join-team.html">Join Our Team</a>
+  <span class="section-label">Contact Us</span>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- HERO -->
+<section style="background:var(--green-dark);padding:9rem 0 5rem;">
+  <div class="container">
+    <span class="label" style="margin-bottom:1rem;display:block;">Courses &amp; Resources</span>
+    <h1 style="color:white;margin-bottom:1.25rem;">Skills That Actually<br>Move Your Career Forward</h1>
+    <p style="color:rgba(255,255,255,0.72);font-size:1.05rem;max-width:580px;margin-bottom:2.5rem;">Professional courses, free templates, and premium guides built by practitioners — covering research, writing, AI, and career development.</p>
+    <div class="btn-group">
+      <a href="#courses" class="btn btn-lime">Browse Courses <span class="material-icons-round">arrow_forward</span></a>
+      <a href="#resources" class="btn btn-outline-white">Free Resources</a>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="container">
+    <div class="section-header">
+      <span class="label">Active Courses</span>
+      <h2>What We're Teaching Now</h2>
+      <div class="divider"></div>
+      <p>We currently have three flagship courses active. More programmes are in development — look for them in the Coming Soon section below.</p>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="courses-filter-bar" id="courseFilterBar">
+      <button class="filter-btn active" data-filter="all">All Courses</button>
+      <button class="filter-btn" data-filter="ai">AI &amp; Technology</button>
+      <button class="filter-btn" data-filter="research">Research &amp; Writing</button>
+      <button class="filter-btn" data-filter="career">Career Development</button>
+    </div>
+
+    <div class="grid-3" id="coursesGrid">
+      <!-- Notebook LM -->
+      <div class="course-card-v2" data-category="ai">
+        <div style="background-image: url(images/course-images/notebookllm.jpeg);background-size: cover" class="course-card-v2__thumb">
+
+          <div class="course-card-v2__badge course-card-v2__badge--lime">FEATURED</div>
+        </div>
+        <div class="course-card-v2__body">
+          <div class="course-card-v2__cat">AI &amp; Technology</div>
+          <h3>Notebook LM for Educators &amp; Researchers</h3>
+          <p>Master Google's Notebook LM to transform how you research, teach, and design curriculum — without losing your academic voice or compromising integrity.</p>
+          <div class="course-card-v2__meta">
+            <span><span class="material-icons-round">menu_book</span> 8 Modules</span>
+            <span><span class="material-icons-round">schedule</span> 6 Hours</span>
+            <span><span class="material-icons-round">workspace_premium</span> Certificate</span>
+          </div>
+          <div class="course-card-v2__price">₦25,000</div>
+          <a href="./courses/course-not-available.html" class="btn btn-primary" style="width:100%;justify-content:center;">Enrol Now <span class="material-icons-round">arrow_forward</span></a>        </div>
+      </div>
+
+      <!-- Grant Writing -->
+      <div class="course-card-v2" data-category="research">
+        <div style="background-image: url(images/course-images/writing.jpg);background-size: cover" class="course-card-v2__thumb"></div>
+        <div class="course-card-v2__body">
+          <div class="course-card-v2__cat">Research &amp; Writing</div>
+          <h3>Grant Writing That Wins: A Practical Guide</h3>
+          <p>Learn the strategies, structures, and psychology behind grant proposals that consistently succeed in competitive funding environments across Africa and globally.</p>
+          <div class="course-card-v2__meta">
+            <span><span class="material-icons-round">menu_book</span> 10 Modules</span>
+            <span><span class="material-icons-round">schedule</span> 8 Hours</span>
+            <span><span class="material-icons-round">workspace_premium</span> Certificate</span>
+          </div>
+          <div class="course-card-v2__price">₦18,000</div>
+          <a href="./courses/course-not-available.html" class="btn btn-primary" style="width:100%;justify-content:center;">Enrol Now <span class="material-icons-round">arrow_forward</span></a>
+        </div>
+      </div>
+
+      <!-- Career -->
+      <div class="course-card-v2" data-category="career">
+        <div style="background-image: url(images/course-images/job.jpg);background-size: cover" class="course-card-v2__thumb">
+
+          <div class="course-card-v2__badge">NEW</div>
+        </div>
+        <div class="course-card-v2__body">
+          <div class="course-card-v2__cat">Career Development</div>
+          <h3>Land Your Dream Job: CV, LinkedIn &amp; Interview</h3>
+          <p>A complete career acceleration programme — ATS-optimised CVs, magnetic LinkedIn profiles, and interview frameworks that convert to offers.</p>
+          <div class="course-card-v2__meta">
+            <span><span class="material-icons-round">menu_book</span> 12 Modules</span>
+            <span><span class="material-icons-round">schedule</span> 10 Hours</span>
+            <span><span class="material-icons-round">workspace_premium</span> Certificate</span>
+          </div>
+          <div class="course-card-v2__price">₦22,000</div>
+          <a href="./courses/course-not-available.html" class="btn btn-primary" style="width:100%;justify-content:center;">Enrol Now <span class="material-icons-round">arrow_forward</span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMING SOON (blurred) -->
+    <div style="margin-top:4rem;">
+      <div class="section-header">
+        <span class="label">In Development</span>
+        <h2>Coming Soon</h2>
+        <p>These programmes are in production. Sign up to our newsletter to be notified when they launch.</p>
+      </div>
+      <div class="grid-3">
+        <div class="course-card-v2 course-card-v2--blurred">
+          <div class="course-card-v2__thumb"><span class="material-icons-round">analytics</span></div>
+          <div class="course-card-v2__body"><div class="course-card-v2__cat">Research</div><h3>Academic Writing: Draft to Publication</h3><p>Graduate students and early-career researchers — structure, argumentation, peer review, journal submission.</p><div class="course-card-v2__price">₦28,000</div></div>
+        </div>
+        <div class="course-card-v2 course-card-v2--blurred">
+          <div class="course-card-v2__thumb"><span class="material-icons-round">psychology</span></div>
+          <div class="course-card-v2__body"><div class="course-card-v2__cat">AI &amp; Technology</div><h3>AI Literacy for Business Professionals</h3><p>Understand, evaluate, and integrate AI tools into your workflows and communications strategies.</p><div class="course-card-v2__price">₦15,000</div></div>
+        </div>
+        <div class="course-card-v2 course-card-v2--blurred">
+          <div class="course-card-v2__thumb"><span class="material-icons-round">article</span></div>
+          <div class="course-card-v2__body"><div class="course-card-v2__cat">Consultancy</div><h3>Content Strategy Fundamentals</h3><p>Build a data-driven content strategy — audience research, pillars, editorial calendars, and performance measurement.</p><div class="course-card-v2__price">₦20,000</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES & GUIDES -->
+<section id="resources" style="background:var(--grey-light);">
+  <div class="container">
+    <div class="section-header">
+      <span class="label">Resources &amp; Guides</span>
+      <h2>Templates, Guides &amp; Downloadable Tools</h2>
+      <div class="divider"></div>
+      <p>A growing library of free and premium resources designed to give you an immediate head start — whether you're writing your first grant or refining a research methodology.</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="resources-tabs">
+      <button class="resources-tab active" data-tab="free">Free Downloads</button>
+      <button class="resources-tab" data-tab="premium">Premium Guides</button>
+    </div>
+
+    <!-- Free tab -->
+    <div data-resources-panel="free">
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="resource-card">
+          <div class="resource-card__icon"><span class="material-icons-round">description</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Template · Free</div>
+            <h4>Research Proposal Template</h4>
+            <p>A structured, professionally formatted template for academic and grant research proposals — adaptable across disciplines and funding bodies. Includes guidance notes for each section.</p>
+            <div class="resource-card__meta">
+              <span>Word Document · 8 pages</span>
+              <span class="resource-card__price resource-card__price--free">Free Download</span>
+            </div>
+            <a href="resources/resource-not-available.html" class="btn btn-outline" style="margin-top:1rem;">Download Free <span class="material-icons-round">download</span></a>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card__icon"><span class="material-icons-round">checklist</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Checklist · Free</div>
+            <h4>ATS CV Optimisation Checklist</h4>
+            <p>15 evidence-based fixes that dramatically improve your CV's pass rate through automated screening systems used by 99% of major employers. Includes before/after examples.</p>
+            <div class="resource-card__meta">
+              <span>PDF Checklist · 2 pages</span>
+              <span class="resource-card__price resource-card__price--free">Free Download</span>
+            </div>
+            <a href="resources/resource-not-available.html" class="btn btn-outline" style="margin-top:1rem;">Get Free Checklist <span class="material-icons-round">download</span></a>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card__icon"><span class="material-icons-round">smart_toy</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Starter Guide · Free</div>
+            <h4>AI Tools for Researchers: Starter Guide</h4>
+            <p>Our most-downloaded resource — a curated overview of the most useful AI tools for research and academic writing in 2025, with practical usage tips and ethical guidance for each tool.</p>
+            <div class="resource-card__meta">
+              <span>PDF Guide · 12 pages</span>
+              <span class="resource-card__price resource-card__price--free">Free Download</span>
+            </div>
+            <a href="resources/resource-not-available.html" class="btn btn-outline" style="margin-top:1rem;">Download Free <span class="material-icons-round">download</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Premium tab -->
+    <div data-resources-panel="premium" hidden>
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="resource-card">
+          <div class="resource-card__icon" style="background:var(--green);"><span class="material-icons-round" style="color:white;">auto_stories</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Premium Guide</div>
+            <h4>The Complete Grant Writing Handbook</h4>
+            <p>A 50-page deep-dive into grant proposal writing — covering every section of a winning proposal, funder psychology, Nigerian and international funding landscapes, and 5 annotated proposal examples across health, education, and tech.</p>
+            <div class="resource-card__meta">
+              <span>PDF Guide · 50 pages</span>
+              <span>5 annotated examples</span>
+              <span class="resource-card__price">₦5,000</span>
+            </div>
+            <a href="resources/resource-not-available.html" class="btn btn-primary" style="margin-top:1rem;">Purchase Guide <span class="material-icons-round">shopping_cart</span></a>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card__icon" style="background:var(--green);"><span class="material-icons-round" style="color:white;">work_history</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Premium Bundle</div>
+            <h4>Job Search Success Bundle</h4>
+            <p>Everything you need to land your next role — ATS-optimised CV templates for 10 industries, LinkedIn profile guide, 30 interview question frameworks with sample answers, and a salary negotiation script. Built for the Nigerian and African job market.</p>
+            <div class="resource-card__meta">
+              <span>PDF + Word Templates</span>
+              <span>10 CV templates included</span>
+              <span class="resource-card__price">₦8,000</span>
+            </div>
+            <a href="resources/resource-not-available.html"class="btn btn-primary" style="margin-top:1rem;">Purchase Bundle <span class="material-icons-round">shopping_cart</span></a>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card__icon" style="background:var(--green);"><span class="material-icons-round" style="color:white;">psychology</span></div>
+          <div class="resource-card__body">
+            <div class="resource-card__type">Premium Guide</div>
+            <h4>Notebook LM Mastery Workbook</h4>
+            <p>The companion workbook to our Notebook LM masterclass. Step-by-step exercises, workflow templates, and prompt libraries for researchers and educators. Use it standalone or alongside the live programme.</p>
+            <div class="resource-card__meta">
+              <span>PDF Workbook · 35 pages</span>
+              <span>Includes prompt library</span>
+              <span class="resource-card__price">₦4,000</span>
+            </div>
+            <a href="resources/resource-not-available.html" class="btn btn-primary" style="margin-top:1rem;">Purchase Workbook <span class="material-icons-round">shopping_cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-strip"><div class="container"><span class="label" style="margin-bottom:1rem;display:block;">Not Sure Where to Start?</span><h2>Talk to Our Team</h2><p>We'll help you find the right course, guide, or programme for your goals and budget.</p><div class="btn-group"><a href="contact.html" class="btn btn-lime">Talk to Us <span class="material-icons-round">arrow_forward</span></a><a href="events-and-insights.html#upcoming-events" class="btn btn-outline-white">See Upcoming Events</a></div></div></div>
+
+<footer class="footer"><div class="container">
+  <div class="footer__grid">
+    <div class="footer__brand"><div class="footer__brand-logo"><div class="footer__brand-logo-placeholder">scribble<span>green</span></div></div><p>World-class writing, research, and AI innovation for businesses, academics, and media professionals.</p><div class="footer__social"><a href="#" class="footer__social-link"><span class="material-icons-round">link</span></a><a href="#" class="footer__social-link"><span class="material-icons-round">alternate_email</span></a><a href="#" class="footer__social-link"><span class="material-icons-round">photo_camera</span></a></div></div>
+    <div class="footer__col"><div class="footer__col-title">Services</div><ul><li><a href="services-consultancy.html">Consultancy</a></li><li><a href="services-research.html">Research &amp; Writing</a></li><li><a href="services-ai.html">AI Innovation</a></li><li><a href="cv-builder.html">CV Builder</a></li></ul></div>
+    <div class="footer__col"><div class="footer__col-title">Company</div><ul><li><a href="about.html">About Us</a></li><li><a href="events-and-insights.html">Events &amp; Insights</a></li><li><a href="courses.html">Courses</a></li><li><a href="ambassador.html">Ambassador</a></li><li><a href="join-team.html">Join the Team</a></li></ul></div>
+    <div class="footer__col"><div class="footer__col-title">Contact</div><ul><li><a href="mailto:m.johnscribblegreen@gmail.com">Email Us</a></li><li><a href="tel:+2348107487190">+234 810 748 7190</a></li><li><a href="contact.html">Contact Page</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><p>© 2026 Scribble Green. All rights reserved. Lagos, Nigeria.</p><div class="footer__bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+</div></footer>
+<script src="js/main.js"></script>
+<script src="js/events-and-insights.js"></script>
+</body>
+</html>

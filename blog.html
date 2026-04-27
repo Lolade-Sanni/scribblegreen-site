@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insights — Scribble Green</title>
+    <link rel="stylesheet" href="css/styles-plus.css" />
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+            <div class="navbar__logo-mark">SG</div>
+            <span class="navbar__logo-text">Scribble Green</span>
+        </a>
+        <ul class="navbar__nav">
+            <li><a href="about.html">About</a></li>
+            <li class="nav-dropdown">
+                <span class="nav-dropdown__label">Services</span>
+                <div class="nav-dropdown__menu">
+                    <a href="services.html">All Services</a>
+                    <a href="services-consultancy.html">Consultancy</a>
+                    <a href="services-research.html">Research & Writing</a>
+                    <a href="services-ai.html">AI & Digital Innovation</a>
+                </div>
+            </li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="blog.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navbar__cta">
+            <a href="cv-builder.html" class="btn btn-outline">CV Builder</a>
+            <a href="training.html" class="btn btn-primary">Member Access</a>
+        </div>
+        <div class="navbar__hamburger"><span></span><span></span><span></span></div>
+    </div>
+</nav>
+<div class="navbar__mobile">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="services.html">Services</a><a href="courses.html">Courses</a>
+    <a href="events.html">Events</a><a href="training.html">Training Materials</a>
+    <a href="blog.html">Insights</a><a href="cv-builder.html">CV Builder</a><a href="contact.html">Contact</a>
+</div>
+
+<div class="page-hero">
+    <div class="container">
+        <span class="label">Research Insights</span>
+        <h1>Ideas, Analysis &<br>Expert Perspectives</h1>
+        <p>Articles, deep dives, and practical guides written by Scribble Green's research team — covering AI, academic writing, career development, and strategic communication.</p>
+    </div>
+</div>
+
+<!-- FEATURED ARTICLE -->
+<section>
+    <div class="container">
+        <span class="label" style="margin-bottom:1.5rem;display:block;">Editor's Pick</span>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--grey-mid);border-radius:4px;overflow:hidden;">
+            <div style="background:var(--green-light);display:flex;align-items:center;justify-content:center;padding:4rem;font-size:6rem;">📊</div>
+            <div style="padding:3rem;">
+                <div class="card__tag">AI & Research</div>
+                <h2 style="font-size:1.8rem;margin-bottom:1rem;line-height:1.3;">How AI is Reshaping the Academic Research Workflow in 2025</h2>
+                <p style="margin-bottom:1.5rem;">A deep dive into how tools like Notebook LM, Consensus, and Elicit are fundamentally changing the way researchers synthesise literature, formulate arguments, and communicate findings — and what this means for academic integrity.</p>
+                <div style="display:flex;align-items:center;gap:1.25rem;margin-bottom:2rem;font-size:0.85rem;color:var(--grey-text);">
+                    <div style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:36px;height:36px;border-radius:50%;background:var(--green-light);display:flex;align-items:center;justify-content:center;font-size:0.7rem;font-weight:700;color:var(--green);">MJ</div>
+                        <span>M. John, Founder</span>
+                    </div>
+                    <span>·</span>
+                    <span>March 2025</span>
+                    <span>·</span>
+                    <span>8 min read</span>
+                </div>
+                <a href="posts/blog-post-template.html" class="btn btn-primary btn-arrow">Read Article</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FILTER + ARTICLES GRID -->
+<section>
+    <div class="container">
+        <div style="margin-bottom:3rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+            <div class="tag-group" style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+                <div class="tag active" data-filter="all">All Topics</div>
+                <div class="tag" data-filter="ai">AI & Technology</div>
+                <div class="tag" data-filter="research">Research</div>
+                <div class="tag" data-filter="writing">Writing</div>
+                <div class="tag" data-filter="career">Career</div>
+                <div class="tag" data-filter="strategy">Strategy</div>
+            </div>
+        </div>
+
+        <div class="grid-3">
+
+            <div class="blog-card fade-up" data-category="writing">
+                <div class="blog-card__image-placeholder">✍️</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">Writing</div>
+                    <h3>Grant Writing That Works: What Funders Actually Want to Read</h3>
+                    <p>Lessons from reviewing hundreds of proposals — and the five structural mistakes that cost applicants the most.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">SG</div>
+                            <span>Research Team</span>
+                        </div>
+                        <span>7 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card fade-up" data-category="career">
+                <div class="blog-card__image-placeholder">💼</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">Career</div>
+                    <h3>The ATS Problem: Why 75% of CVs Never Reach a Human Eye</h3>
+                    <p>Understanding how applicant tracking systems score your CV — and the simple fixes that make all the difference.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">AT</div>
+                            <span>A. Thompson</span>
+                        </div>
+                        <span>4 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card fade-up" data-category="ai">
+                <div class="blog-card__image-placeholder">🤖</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">AI & Technology</div>
+                    <h3>Notebook LM vs ChatGPT for Research: A Practical Comparison</h3>
+                    <p>We put both tools through their paces across six research scenarios. Here's what we found — and which one wins for academic work.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">FK</div>
+                            <span>F. Kolade</span>
+                        </div>
+                        <span>6 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card fade-up" data-category="strategy">
+                <div class="blog-card__image-placeholder">📈</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">Strategy</div>
+                    <h3>Why Nigerian Businesses Are Losing Content Battles They Should Be Winning</h3>
+                    <p>An analysis of common content strategy failures in Nigerian corporate communications — and a practical framework for fixing them.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">MJ</div>
+                            <span>M. John</span>
+                        </div>
+                        <span>9 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card fade-up" data-category="research">
+                <div class="blog-card__image-placeholder">🔬</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">Research</div>
+                    <h3>Desk Research vs Primary Research: Choosing the Right Approach for Your Project</h3>
+                    <p>A clear, jargon-free guide to understanding when to collect your own data — and when existing literature is enough.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">RN</div>
+                            <span>R. Nwosu</span>
+                        </div>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card fade-up" data-category="ai">
+                <div class="blog-card__image-placeholder">💡</div>
+                <div class="blog-card__body">
+                    <div class="blog-card__cat">AI & Technology</div>
+                    <h3>5 AI Writing Tools That Are Actually Worth Paying For in 2025</h3>
+                    <p>We tested over 20 AI writing tools so you don't have to. These five consistently delivered the most value for professional and academic users.</p>
+                    <div class="blog-card__footer">
+                        <div class="blog-card__author">
+                            <div class="blog-card__avatar">FK</div>
+                            <span>F. Kolade</span>
+                        </div>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="text-align:center;margin-top:3rem;">
+            <button class="btn btn-ghost">Load More Articles</button>
+        </div>
+    </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="bg-dark">
+    <div class="container--narrow" style="text-align:center;">
+        <span class="label" style="color:rgba(255,255,255,0.5);">Stay Informed</span>
+        <h2>Get Research Insights in Your Inbox</h2>
+        <div class="divider divider--center" style="background:rgba(255,255,255,0.2);"></div>
+        <p style="margin-bottom:2.5rem;">Join 3,000+ researchers, writers, and professionals who receive our fortnightly digest of insights, tools, and opportunities.</p>
+        <form style="display:flex;gap:1rem;max-width:480px;margin:0 auto;" data-feedback>
+            <label>
+                <input type="email" placeholder="your@email.com" style="flex:1;padding:0.875rem 1rem;border:2px solid rgba(255,255,255,0.2);border-radius:2px;background:rgba(255,255,255,0.08);color:white;font-family:var(--sans),serif;font-size:0.95rem;outline:none;" />
+            </label>
+            <button type="submit" class="btn btn-white" style="white-space:nowrap;">Subscribe →</button>
+        </form>
+        <p style="font-size:0.8rem;margin-top:1rem;color:rgba(255,255,255,0.35);">No spam. Unsubscribe at any time.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <div class="navbar__logo-mark" style="margin-bottom:1.25rem;">SG</div>
+                <p>World-class writing, research, and AI innovation for businesses, academics, and media professionals.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">in</a><a href="#" class="footer__social-link">tw</a>
+                    <a href="#" class="footer__social-link">ig</a><a href="#" class="footer__social-link">fb</a>
+                </div>
+            </div>
+            <div class="footer__col"><div class="footer__col-title">Services</div><ul>
+                <li><a href="services-consultancy.html">Consultancy</a></li><li><a href="services-research.html">Research & Writing</a></li>
+                <li><a href="services-ai.html">AI Innovation</a></li><li><a href="cv-builder.html">CV Builder</a></li>
+            </ul></div>
+            <div class="footer__col"><div class="footer__col-title">Company</div><ul>
+                <li><a href="about.html">About Us</a></li><li><a href="events.html">Events</a></li>
+                <li><a href="courses.html">Courses</a></li><li><a href="blog.html">Insights</a></li>
+            </ul></div>
+            <div class="footer__col"><div class="footer__col-title">Contact</div><ul>
+                <li><a href="mailto:m.johnscribblegreen@gmail.com">Email Us</a></li>
+                <li><a href="tel:+2348107487190">+234 810 748 7190</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul></div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2026 Scribble Green. All rights reserved.</p>
+            <div class="footer__bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

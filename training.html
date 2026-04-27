@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Materials — Scribble Green</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+            <div class="navbar__logo-mark">SG</div>
+            <span class="navbar__logo-text">Scribble Green</span>
+        </a>
+        <ul class="navbar__nav">
+            <li><a href="about.html">About</a></li>
+            <li class="nav-dropdown">
+                <span class="nav-dropdown__label">Services</span>
+                <div class="nav-dropdown__menu">
+                    <a href="services.html">All Services</a>
+                    <a href="services-consultancy.html">Consultancy</a>
+                    <a href="services-research.html">Research & Writing</a>
+                    <a href="services-ai.html">AI & Digital Innovation</a>
+                </div>
+            </li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="blog.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navbar__cta">
+            <a href="cv-builder.html" class="btn btn-outline">CV Builder</a>
+            <a href="training.html" class="btn btn-primary">Member Access</a>
+        </div>
+        <div class="navbar__hamburger"><span></span><span></span><span></span></div>
+    </div>
+</nav>
+<div class="navbar__mobile">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="services.html">Services</a><a href="courses.html">Courses</a>
+    <a href="events.html">Events</a><a href="training.html">Training Materials</a>
+    <a href="blog.html">Insights</a><a href="cv-builder.html">CV Builder</a><a href="contact.html">Contact</a>
+</div>
+
+<div class="page-hero">
+    <div class="container">
+        <span class="label">Member Resource Hub</span>
+        <h1>Your Training Materials,<br>All in One Place</h1>
+        <p>Workbooks, slide decks, templates, recordings, and reference guides — available to all active members. Sign in or join to access your library.</p>
+    </div>
+</div>
+
+<!-- LOGIN / ACCESS GATE -->
+<section>
+    <div class="container">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
+            <!-- Login Form -->
+            <div>
+                <span class="label">Member Login</span>
+                <h2 style="margin-bottom:0.5rem;">Access Your Dashboard</h2>
+                <div class="divider"></div>
+                <p style="margin-bottom:2rem;">Already a member? Sign in to access your full training library, course materials, and session recordings.</p>
+                <div style="background:var(--grey-light);border-radius:4px;padding:2.5rem;">
+                    <form data-feedback>
+                        <div class="form-group"><label for="email">Email Address</label><input id="email" type="email" placeholder="your@email.com" /></div>
+                        <div class="form-group"><label for="password">Password</label><input id="password" type="password" placeholder="Your password" /></div>
+                        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-bottom:1rem;">Sign In to Dashboard →</button>
+                        <p style="text-align:center;font-size:0.85rem;">Forgot your password? <a href="#" style="color:var(--green);font-weight:600;">Reset here</a></p>
+                    </form>
+                </div>
+            </div>
+            <!-- What's inside -->
+            <div>
+                <span class="label">What's Inside</span>
+                <h2 style="margin-bottom:0.5rem;">The Resource Library</h2>
+                <div class="divider"></div>
+                <p style="margin-bottom:2rem;">Our growing member library contains everything you need to build and sustain high-level professional skills.</p>
+                <div style="display:flex;flex-direction:column;gap:1rem;">
+                    <div style="display:flex;align-items:flex-start;gap:1.25rem;padding:1.25rem;border:1px solid var(--grey-mid);border-radius:4px;">
+                        <div style="font-size:1.8rem;flex-shrink:0;">📄</div>
+                        <div><h4 style="margin-bottom:0.3rem;">Workbooks & Templates</h4><p style="font-size:0.875rem;">30+ downloadable workbooks, fill-in-the-blank templates, and structured frameworks for research, writing, and strategy.</p></div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:1.25rem;padding:1.25rem;border:1px solid var(--grey-mid);border-radius:4px;">
+                        <div style="font-size:1.8rem;flex-shrink:0;">🎬</div>
+                        <div><h4 style="margin-bottom:0.3rem;">Session Recordings</h4><p style="font-size:0.875rem;">Full recordings of all masterclasses and live workshops — watch at your own pace, as many times as you need.</p></div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:1.25rem;padding:1.25rem;border:1px solid var(--grey-mid);border-radius:4px;">
+                        <div style="font-size:1.8rem;flex-shrink:0;">📊</div>
+                        <div><h4 style="margin-bottom:0.3rem;">Slide Decks & References</h4><p style="font-size:0.875rem;">All presentation slides, annotated references, and reading lists from our courses and events — downloadable in PDF format.</p></div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:1.25rem;padding:1.25rem;border:1px solid var(--grey-mid);border-radius:4px;">
+                        <div style="font-size:1.8rem;flex-shrink:0;">💬</div>
+                        <div><h4 style="margin-bottom:0.3rem;">Community & Live Sessions</h4><p style="font-size:0.875rem;">Members-only community forum plus monthly live Q&A sessions with Scribble Green's research and writing team.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PREVIEW MATERIALS (non-gated sample) -->
+<section class="bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="label">Free Resources</span>
+            <h2>Start Here — No Login Required</h2>
+            <div class="divider"></div>
+            <p>A selection of free resources to give you a taste of what's inside the library.</p>
+        </div>
+        <div class="grid-3">
+            <div class="card fade-up">
+                <div class="card__image--placeholder" style="font-size:2.5rem;">📋</div>
+                <div class="card__body">
+                    <div class="card__tag">Template</div>
+                    <h3>Research Proposal Template</h3>
+                    <p>A structured, professionally formatted template for academic and grant research proposals — adaptable across disciplines.</p>
+                    <a href="#" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:0.5rem;">Download Free →</a>
+                </div>
+            </div>
+            <div class="card fade-up">
+                <div class="card__image--placeholder" style="font-size:2.5rem;">📝</div>
+                <div class="card__body">
+                    <div class="card__tag">Guide</div>
+                    <h3>The ATS CV Optimisation Checklist</h3>
+                    <p>15 evidence-based fixes that dramatically improve your CV's pass rate through automated screening systems.</p>
+                    <a href="cv-builder.html" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:0.5rem;">Get Free Guide →</a>
+                </div>
+            </div>
+            <div class="card fade-up">
+                <div class="card__image--placeholder" style="font-size:2.5rem;">🤖</div>
+                <div class="card__body">
+                    <div class="card__tag">Starter Kit</div>
+                    <h3>AI Tools for Researchers: A Starter Guide</h3>
+                    <p>Our most downloaded resource — a curated overview of the most useful AI tools for research and academic writing in 2025.</p>
+                    <a href="#" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:0.5rem;">Download Free →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- JOIN MEMBERSHIP -->
+<section>
+    <div class="container--narrow" style="text-align:center;">
+        <span class="label">Become a Member</span>
+        <h2>Unlock the Full Library</h2>
+        <div class="divider divider--center"></div>
+        <p style="margin-bottom:3rem;">Join as a Professional or Starter member to get full access to all training materials, recordings, and live community sessions.</p>
+        <div style="display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;">
+            <a href="courses.html" class="btn btn-primary btn-arrow" style="padding:1rem 2.5rem;">View Membership Plans</a>
+            <a href="contact.html" class="btn btn-ghost">Talk to Our Team</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <div class="navbar__logo-mark" style="margin-bottom:1.25rem;">SG</div>
+                <p>World-class writing, research, and AI innovation for businesses, academics, and media professionals.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">in</a><a href="#" class="footer__social-link">tw</a>
+                    <a href="#" class="footer__social-link">ig</a><a href="#" class="footer__social-link">fb</a>
+                </div>
+            </div>
+            <div class="footer__col"><div class="footer__col-title">Services</div><ul>
+                <li><a href="services-consultancy.html">Consultancy</a></li><li><a href="services-research.html">Research & Writing</a></li>
+                <li><a href="services-ai.html">AI Innovation</a></li><li><a href="cv-builder.html">CV Builder</a></li>
+            </ul></div>
+            <div class="footer__col"><div class="footer__col-title">Company</div><ul>
+                <li><a href="about.html">About Us</a></li><li><a href="events.html">Events</a></li>
+                <li><a href="courses.html">Courses</a></li><li><a href="blog.html">Insights</a></li>
+            </ul></div>
+            <div class="footer__col"><div class="footer__col-title">Contact</div><ul>
+                <li><a href="mailto:m.johnscribblegreen@gmail.com">Email Us</a></li>
+                <li><a href="tel:+2348107487190">+234 810 748 7190</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul></div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2026 Scribble Green. All rights reserved.</p>
+            <div class="footer__bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
