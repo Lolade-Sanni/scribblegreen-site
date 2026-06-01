@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scribble Green — Research, Writing & AI Innovation</title>
-    <meta name="description" content="Scribble Green is a world-class research, writing, and AI innovation firm serving businesses, academics, and media professionals across Africa and beyond." />
-    <link rel="stylesheet" href="css/styles-plus.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Scribble Green — Research, Writing &amp; AI Innovation</title>
+    <meta name="description" content="Scribble Green is a research, writing, and AI innovation firm helping businesses, academics, and media professionals communicate with authority and impact."/>
+    <link rel="stylesheet" href="css/styles-plus.css"/>
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- ── NAVBAR ──────────────────────────────────────────────── -->
 <nav class="navbar" id="navbar">
     <div class="navbar__inner">
         <a href="index.html" class="navbar__logo">
@@ -44,69 +44,83 @@
         <div class="navbar__hamburger"><span></span><span></span><span></span></div>
     </div>
 </nav>
-<div class="navbar__mobile">
-    <span class="section-label">Scribblegreen</span>
+
+<div class="navbar__mobile" id="mobileNav">
+    <span class="mob-label">Scribblegreen</span>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <span class="section-label">Services</span>
+    <span class="mob-label">Services</span>
     <a href="services.html">All Services</a>
     <a href="services-consultancy.html">Consultancy</a>
-    <a href="services-research.html">Research & Writing</a>
-    <a href="services-ai.html">AI & Digital Innovation</a>
-    <span class="section-label">Learning</span>
+    <a href="services-research.html">Research &amp; Writing</a>
+    <a href="services-ai.html">AI &amp; Digital Innovation</a>
+    <span class="mob-label">Learn</span>
     <a href="courses.html">Courses</a>
-    <a href="events-and-insights.html">Events</a>
-    <a href="courses.html#resources">Resources</a>
-    <span class="section-label">Career</span>
-    <a href="ambassador.html">Student Ambassador</a>
-    <a href="join-team.html">Join Our Team</a>
-    <span class="section-label">Contact Us</span>
+    <a href="events-insights.html">Events &amp; Insights</a>
+    <span class="mob-label">Career</span>
+    <a href="ambassador.html">Ambassador Programme</a>
+    <a href="join-team.html">Join the Team</a>
+    <span class="mob-label">Contact Us</span>
     <a href="contact.html">Contact</a>
 </div>
 
-<!-- HERO -->
-<section class="hero">
+
+<!-- ── HERO ─────────────────────────────────────────────────── -->
+<section class="page-hero">
+    <!-- subtle radial glow -->
+    <div style="position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(74,155,106,0.1) 0%,transparent 65%);top:-200px;right:-150px;pointer-events:none;"></div>
+
     <div class="container">
-        <div class="hero--split">
-            <div class="hero__text">
-                <span class="label">Research · Writing · AI Innovation</span>
-                <h1>Where Ideas Become Influence</h1>
-                <p>Scribble Green partners with businesses, academics, and media professionals to deliver world-class research, writing, and AI-powered digital solutions that drive measurable results.</p>
+        <div class="hero-split" style="gap:5rem;">
+
+            <!-- Text -->
+            <div>
+                <span class="label" style="margin-bottom:1.25rem;display:block;">Research · Writing · AI Innovation</span>
+                <h1 style="color:var(--white);line-height:1.1;margin-bottom:1.5rem;">
+                    Where Ideas<br>Become Influence
+                </h1>
+                <p style="color:rgba(255,255,255,0.68);font-size:1.1rem;max-width:500px;line-height:1.8;margin-bottom:2.5rem;">
+                    Scribble Green partners with businesses, academics, and media professionals to deliver world-class research, writing, and AI-powered solutions that drive real results.
+                </p>
                 <div class="btn-group">
-                    <a href="services.html" class="btn btn-primary btn-arrow">Explore Services</a>
-                    <a href="contact.html" class="btn btn-ghost">Get In Touch</a>
+                    <a href="services.html" class="btn btn-white">Explore Services</a>
+                    <a href="contact.html" class="btn btn-green">Get In Touch</a>
                 </div>
             </div>
-            <div class="hero__visual fade-up">
-                <div class="hero__image-placeholder">
-                    <!-- Logo Placeholder -->
-                    <div style="text-align:center;padding:2rem;">
-                        <div style="width:80px;height:80px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;font-family:var(--serif);font-size:2rem;color:white;font-weight:700;">SG</div>
-                        <p style="color:var(--green);font-family:var(--serif);font-size:1rem;">[ Logo Placeholder ]</p>
+
+            <!-- Visual -->
+            <div class="slide-in-right" style="display:flex;align-items:center;justify-content:center;">
+                <div style="width:100%;aspect-ratio:1/1;background:rgba(255,255,255,0.04);border:1px dashed rgba(255,255,255,0.12);border-radius:var(--radius-lg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.25rem;">
+                    <div style="width:80px;height:80px;background:rgba(74,155,106,0.2);border-radius:16px;display:flex;align-items:center;justify-content:center;">
+                        <span class="material-icons-round" style="font-size:2.5rem;color:var(--green-lime);">eco</span>
                     </div>
+                    <p style="color:rgba(255,255,255,0.25);font-size:0.85rem;margin:0;">[ Logo Placeholder ]</p>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- TRUST BAR -->
-<section style="padding:2.5rem 0;border-top:1px solid var(--grey-mid);border-bottom:1px solid var(--grey-mid);">
+
+<!-- ── TRUST BAR ─────────────────────────────────────────────── -->
+<div style="border-bottom:1px solid var(--grey-mid);padding:2rem 0;">
     <div class="container">
-        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;">
-            <p style="font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--grey-text);font-weight:600;">Trusted by organisations across Africa & beyond</p>
-            <div style="display:flex;gap:3rem;flex-wrap:wrap;align-items:center;">
-                <span style="font-family:var(--serif);font-size:1.1rem;color:var(--grey-mid);font-weight:600;">Academia</span>
-                <span style="font-family:var(--serif);font-size:1.1rem;color:var(--grey-mid);font-weight:600;">NGOs</span>
-                <span style="font-family:var(--serif);font-size:1.1rem;color:var(--grey-mid);font-weight:600;">Media</span>
-                <span style="font-family:var(--serif);font-size:1.1rem;color:var(--grey-mid);font-weight:600;">Corporates</span>
-                <span style="font-family:var(--serif);font-size:1.1rem;color:var(--grey-mid);font-weight:600;">Government</span>
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;">
+            <p style="font-size:0.7rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--grey-text);">Trusted by organisations across Africa &amp; beyond</p>
+            <div style="display:flex;gap:2.5rem;flex-wrap:wrap;align-items:center;">
+                <span style="font-size:0.92rem;font-weight:700;color:var(--grey-mid);">Academia</span>
+                <span style="font-size:0.92rem;font-weight:700;color:var(--grey-mid);">NGOs</span>
+                <span style="font-size:0.92rem;font-weight:700;color:var(--grey-mid);">Media</span>
+                <span style="font-size:0.92rem;font-weight:700;color:var(--grey-mid);">Corporates</span>
+                <span style="font-size:0.92rem;font-weight:700;color:var(--grey-mid);">Government</span>
             </div>
         </div>
     </div>
-</section>
+</div>
 
-<!-- SERVICES OVERVIEW -->
+
+<!-- ── SERVICES ──────────────────────────────────────────────── -->
 <section>
     <div class="container">
         <div class="section-header">
@@ -115,256 +129,260 @@
             <div class="divider"></div>
             <p>From strategic consultancy to cutting-edge AI tooling — we give your ideas the precision and power they deserve.</p>
         </div>
-        <div class="grid-3 stagger-children">
+
+        <div class="grid-3">
+
             <div class="service-card fade-up">
-                <div class="service-card__icon">🎯</div>
+                <div class="service-card__icon"><span class="material-icons-round">track_changes</span></div>
                 <h3>Consultancy Solutions</h3>
-                <p>Strategic counsel and workshop facilitation to sharpen your competitive edge and develop your people.</p>
+                <p>Strategic counsel and workshop facilitation to sharpen your competitive edge and develop your people — built around your organisation's real objectives.</p>
                 <ul>
-                    <li>Content strategy & workshops</li>
-                    <li>Leadership & skill development</li>
-                    <li>Market & research analyses</li>
+                    <li>Content strategy &amp; workshops</li>
+                    <li>Leadership &amp; skills development</li>
+                    <li>Market &amp; competitive analyses</li>
                 </ul>
-                <a href="services-consultancy.html" class="card__link">Learn more</a>
+                <a href="services-consultancy.html" class="card__link">Learn more <span class="material-icons-round">arrow_forward</span></a>
             </div>
+
             <div class="service-card fade-up">
-                <div class="service-card__icon">📝</div>
-                <h3>Research & Writing</h3>
-                <p>Rigorous, evidence-based writing across academic, policy, and commercial contexts — delivered with editorial precision.</p>
+                <div class="service-card__icon"><span class="material-icons-round">edit_note</span></div>
+                <h3>Research &amp; Writing</h3>
+                <p>Rigorous, evidence-based writing across academic, policy, and commercial contexts — delivered with editorial precision and strategic intent.</p>
                 <ul>
-                    <li>White papers & journal articles</li>
-                    <li>Grant proposals & press releases</li>
-                    <li>Thematic syntheses & desk research</li>
+                    <li>White papers &amp; journal articles</li>
+                    <li>Grant proposals &amp; press releases</li>
+                    <li>Thematic syntheses &amp; desk research</li>
                 </ul>
-                <a href="services-research.html" class="card__link">Learn more</a>
+                <a href="services-research.html" class="card__link">Learn more <span class="material-icons-round">arrow_forward</span></a>
             </div>
+
             <div class="service-card fade-up">
-                <div class="service-card__icon">🤖</div>
-                <h3>AI & Digital Innovation</h3>
-                <p>Bespoke AI tools, cloud applications, and technical documentation that keep you ahead of the curve.</p>
+                <div class="service-card__icon"><span class="material-icons-round">smart_toy</span></div>
+                <h3>AI &amp; Digital Innovation</h3>
+                <p>Bespoke AI tools, cloud applications, and technical documentation that give your organisation a genuine technological advantage.</p>
                 <ul>
                     <li>AI text-humanisation tools</li>
-                    <li>Cloud solutions & web applications</li>
-                    <li>Technical documentation & APIs</li>
+                    <li>Cloud solutions &amp; web applications</li>
+                    <li>Technical documentation &amp; APIs</li>
                 </ul>
-                <a href="services-ai.html" class="card__link">Learn more</a>
+                <a href="services-ai.html" class="card__link">Learn more <span class="material-icons-round">arrow_forward</span></a>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- STATS -->
-<section class="bg-light">
+
+<!-- ── STATS ─────────────────────────────────────────────────── -->
+<section style="background:var(--grey-light);padding:4rem 0;">
     <div class="container">
         <div class="grid-4">
             <div class="stat-card fade-up">
-                <span class="stat-card__number">2023</span>
+                <span class="stat-card__num">2023</span>
                 <span class="stat-card__label">Year Founded</span>
             </div>
             <div class="stat-card fade-up">
-                <span class="stat-card__number">2,847+</span>
+                <span class="stat-card__num">2,847+</span>
                 <span class="stat-card__label">Professionals Served</span>
             </div>
             <div class="stat-card fade-up">
-                <span class="stat-card__number">94%</span>
-                <span class="stat-card__label">Client Satisfaction Rate</span>
+                <span class="stat-card__num">94%</span>
+                <span class="stat-card__label">Client Satisfaction</span>
             </div>
             <div class="stat-card fade-up">
-                <span class="stat-card__number">50+</span>
+                <span class="stat-card__num">50+</span>
                 <span class="stat-card__label">Industry Templates</span>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ABOUT STRIP -->
+
+<!-- ── ABOUT STRIP ────────────────────────────────────────────── -->
 <section>
     <div class="container">
-        <div class="hero--split" style="gap:5rem;">
-            <div class="hero__visual fade-up">
-                <div class="hero__image-placeholder" style="aspect-ratio:1/1;border-radius:4px;">
-                    <div style="text-align:center;padding:2rem;">
-                        <span style="font-size:5rem;">🌿</span>
-                        <p style="color:var(--green);margin-top:1rem;font-family:var(--serif);">Our Story</p>
-                    </div>
+        <div class="hero-split" style="gap:5rem;">
+
+            <div style="position:relative;">
+                <div style="width:100%;aspect-ratio:4/3;background:var(--green-light);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;" class="fade-up">
+                    <span class="material-icons-round" style="font-size:5rem;color:var(--green-mid);">groups</span>
+                </div>
+                <!-- floating accent card -->
+                <div style="position:absolute;bottom:-1.5rem;right:-1.5rem;background:var(--green);color:var(--white);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;box-shadow:var(--shadow-lg);">
+                    <span style="display:block;font-size:1.8rem;font-weight:800;color:var(--green-light);line-height:1;">Lagos</span>
+                    <span style="font-size:0.78rem;color:rgba(255,255,255,0.65);">Nigeria · Est. 2023</span>
                 </div>
             </div>
-            <div class="hero__text">
-                <span class="label">Our Story</span>
+
+            <div>
+                <span class="label" style="margin-bottom:1rem;display:block;">Our Story</span>
                 <h2>From Ideas to Influence</h2>
                 <div class="divider"></div>
-                <p>Founded in 2023, Scribble Green combines deep research expertise with editorial precision to serve businesses, researchers, and media professionals. We exist at the intersection of knowledge and communication — making complex ideas accessible, compelling, and impactful.</p>
-                <br>
-                <p>Our team of research specialists, writers, and technologists bring a rigorous, client-first approach to every engagement, from a single white paper to a full digital transformation roadmap.</p>
-                <br>
-                <a href="about.html" class="btn btn-outline btn-arrow">Meet the Team</a>
+                <p style="margin-bottom:1.25rem;">Founded in 2023, Scribble Green combines deep research expertise with editorial precision to serve businesses, researchers, and media professionals. We exist at the intersection of knowledge and communication — making complex ideas accessible, compelling, and impactful.</p>
+                <p>Our team of specialists brings a rigorous, client-first approach to every engagement — from a single white paper to a full digital transformation roadmap.</p>
+                <div class="btn-group" style="margin-top:2rem;">
+                    <a href="about.html#team" class="btn btn-outline">Meet the Team <span class="material-icons-round">arrow_forward</span></a>
+                </div>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- FEATURED COURSE / MASTERCLASS -->
-<section class="bg-dark">
-    <div class="container">
-        <div class="hero--split" style="gap:4rem;">
-            <div class="hero__text">
-                <span class="label" style="color:rgba(255,255,255,0.5);">Featured Event</span>
-                <h2 style="color:white;">Teaching Better in the AI Era</h2>
-                <div class="divider"></div>
-                <p style="color:rgba(255,255,255,0.8);">A practical 3-day live masterclass for educators and researchers who want to confidently leverage Notebook LM for research, lectures, and curriculum design — without compromising academic integrity.</p>
-                <br>
-                <div style="display:flex;gap:2rem;flex-wrap:wrap;margin-bottom:2rem;">
-                    <div>
-                        <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:0.3rem;">Format</div>
-                        <div style="color:white;font-weight:600;">Live Online · 3 Days</div>
-                    </div>
-                    <div>
-                        <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:0.3rem;">Duration</div>
-                        <div style="color:white;font-weight:600;">2 Hours per Day</div>
-                    </div>
-                    <div>
-                        <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:0.3rem;">Fee</div>
-                        <div style="color:white;font-weight:600;">₦25,000</div>
-                    </div>
-                </div>
-                <div class="btn-group">
-                    <a href="events.html" class="btn btn-white">Register Now</a>
-                    <a href="events.html" class="btn" style="color:rgba(255,255,255,0.7);border:2px solid rgba(255,255,255,0.3);">View All Events</a>
-                </div>
-            </div>
-            <div class="hero__visual fade-up">
-                <div class="hero__image-placeholder" style="background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.15);color:rgba(255,255,255,0.6);">
-                    <div style="text-align:center;padding:2rem;">
-                        <span style="font-size:4rem;">📡</span>
-                        <p style="margin-top:1rem;font-family:var(--serif);">Masterclass</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- LATEST INSIGHTS -->
+
+
+
+<!-- ── LATEST INSIGHTS ────────────────────────────────────────── -->
 <section>
     <div class="container">
-        <div class="section-header" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:3rem;">
             <div>
-                <span class="label">Latest Insights</span>
+                <span class="label" style="margin-bottom:0.75rem;display:block;">Latest Insights</span>
                 <h2>From Our Research Team</h2>
             </div>
-            <a href="blog.html" class="btn btn-outline">View All Articles</a>
+            <a href="events-insights.html" class="btn btn-outline">View All Articles</a>
         </div>
+
         <div class="grid-3">
+
             <div class="blog-card fade-up">
-                <div class="blog-card__image-placeholder">📊</div>
+                <div class="blog-card__img">
+                    <span class="material-icons-round" style="font-size:3rem;color:var(--green-mid);">analytics</span>
+                </div>
                 <div class="blog-card__body">
-                    <div class="blog-card__cat">AI & Research</div>
+                    <div class="blog-card__cat">AI &amp; Research</div>
                     <h3>How AI is Reshaping the Academic Research Workflow in 2025</h3>
                     <p>A deep dive into how tools like Notebook LM are transforming how researchers synthesise literature and build arguments.</p>
                     <div class="blog-card__footer">
                         <div class="blog-card__author">
-                            <div class="blog-card__avatar">MJ</div>
-                            <span>M. John</span>
+                            <div class="blog-card__av">JM</div>
+                            <span>J. Morounfoluwa</span>
                         </div>
-                        <span>5 min read</span>
+                        <span>8 min read</span>
                     </div>
                 </div>
             </div>
+
             <div class="blog-card fade-up">
-                <div class="blog-card__image-placeholder">✍️</div>
+                <div class="blog-card__img">
+                    <span class="material-icons-round" style="font-size:3rem;color:var(--green-mid);">edit</span>
+                </div>
                 <div class="blog-card__body">
                     <div class="blog-card__cat">Writing</div>
                     <h3>Grant Writing That Works: What Funders Actually Want to Read</h3>
                     <p>Lessons from reviewing hundreds of proposals — and the five structural mistakes that cost applicants the most.</p>
                     <div class="blog-card__footer">
                         <div class="blog-card__author">
-                            <div class="blog-card__avatar">SG</div>
+                            <div class="blog-card__av">SG</div>
                             <span>Research Team</span>
                         </div>
                         <span>7 min read</span>
                     </div>
                 </div>
             </div>
+
             <div class="blog-card fade-up">
-                <div class="blog-card__image-placeholder">💼</div>
+                <div class="blog-card__img">
+                    <span class="material-icons-round" style="font-size:3rem;color:var(--green-mid);">work</span>
+                </div>
                 <div class="blog-card__body">
                     <div class="blog-card__cat">Career</div>
                     <h3>The ATS Problem: Why 75% of CVs Never Reach a Human Eye</h3>
                     <p>Understanding how applicant tracking systems score your CV — and the simple fixes that make all the difference.</p>
                     <div class="blog-card__footer">
                         <div class="blog-card__author">
-                            <div class="blog-card__avatar">AT</div>
-                            <span>A. Thompson</span>
+                            <div class="blog-card__av">SU</div>
+                            <span>S. Umurie</span>
                         </div>
                         <span>4 min read</span>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- CTA STRIP -->
+
+<!-- ── CTA STRIP ──────────────────────────────────────────────── -->
 <div class="cta-strip">
     <div class="container">
-        <span class="label" style="color:rgba(255,255,255,0.5);">Get Started Today</span>
-        <h2>Ready to Drive Impact with Your Ideas?</h2>
-        <p>Whether you need a research report, a masterclass seat, or a custom AI solution — we're here to make it happen.</p>
+        <span class="label" style="margin-bottom:1rem;display:block;">Get Started</span>
+        <h2>Ready to Drive Impact<br>with Your Ideas?</h2>
+        <p>Whether you need a research report, an event seat, or a custom AI solution — we're here to make it happen.</p>
         <div class="btn-group">
             <a href="contact.html" class="btn btn-white">Start a Conversation</a>
-            <a href="services.html" class="btn" style="color:rgba(255,255,255,0.8);border:2px solid rgba(255,255,255,0.3);">Browse Services</a>
+            <a href="services.html" class="btn btn-green">Browse Services</a>
         </div>
     </div>
 </div>
 
-<!-- FOOTER -->
+
+<!-- ── FOOTER ─────────────────────────────────────────────────── -->
 <footer class="footer">
     <div class="container">
         <div class="footer__grid">
+
             <div class="footer__brand">
-                <div class="navbar__logo-mark" style="margin-bottom:1.25rem;">SG</div>
-                <p>World-class writing, research, and AI innovation for businesses, academics, and media professionals.</p>
+                <div class="footer__brand-logo">
+                    <div class="footer__brand-logo-placeholder">scribble<span>green</span></div>
+                </div>
+                <p>World-class research, writing, and AI innovation for businesses, academics, and media professionals across the World</p>
                 <div class="footer__social">
-                    <a href="#" class="footer__social-link">in</a>
-                    <a href="#" class="footer__social-link">tw</a>
-                    <a href="#" class="footer__social-link">ig</a>
-                    <a href="#" class="footer__social-link">fb</a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn"><span class="material-icons-round">link</span></a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter/X"><span class="material-icons-round">alternate_email</span></a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram"><span class="material-icons-round">photo_camera</span></a>
+                    <a href="#" class="footer__social-link" aria-label="Facebook"><span class="material-icons-round">public</span></a>
                 </div>
             </div>
+
             <div class="footer__col">
                 <div class="footer__col-title">Services</div>
                 <ul>
                     <li><a href="services-consultancy.html">Consultancy</a></li>
-                    <li><a href="services-research.html">Research & Writing</a></li>
+                    <li><a href="services-research.html">Research &amp; Writing</a></li>
                     <li><a href="services-ai.html">AI Innovation</a></li>
                     <li><a href="cv-builder.html">CV Builder</a></li>
                 </ul>
             </div>
+
             <div class="footer__col">
                 <div class="footer__col-title">Company</div>
                 <ul>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="events.html">Events</a></li>
+                    <li><a href="events-and-insights.html">Events &amp; Insights</a></li>
                     <li><a href="courses.html">Courses</a></li>
-                    <li><a href="blog.html">Insights</a></li>
+                    <li><a href="ambassador.html">Ambassador Programme</a></li>
+                    <li><a href="join-team.html">Join the Team</a></li>
                 </ul>
             </div>
+            <div class="footer__col">
+                <div class="footer__col-title">Career</div>
+                <ul>
+                    <li><a href="ambassador.html">Ambassador Programme</a></li>
+                    <li><a href="join-team.html">Join the Team</a></li>
+                </ul>
+            </div>
+
             <div class="footer__col">
                 <div class="footer__col-title">Contact</div>
                 <ul>
                     <li><a href="mailto:m.johnscribblegreen@gmail.com">Email Us</a></li>
                     <li><a href="tel:+2348107487190">+234 810 748 7190</a></li>
                     <li><a href="contact.html">Contact Page</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
                 </ul>
             </div>
+
         </div>
         <div class="footer__bottom">
-            <p>© 2026 Scribble Green. All rights reserved. Lagos, Nigeria.</p>
+            <p>© 2026 Scribblegreen. All rights reserved. Lagos, Nigeria.</p>
             <div class="footer__bottom-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Cookie Policy</a>
+                <a href="privacy-policy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
             </div>
         </div>
     </div>

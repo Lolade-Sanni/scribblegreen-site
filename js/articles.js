@@ -18,7 +18,7 @@ const ARTICLES = [
         excerpt  : 'A deep dive into how tools like Notebook LM are transforming how researchers synthesise literature and build arguments.',
         url      : './posts/how-ai-is-shaping-the-academic-research-workflow-in-2026.html',
         category : 'AI & Research',
-        author   : { name: 'John Morounfoluwa', initials: 'JM', role: 'Founder & Lead Researcher' },
+        author   : { name: 'John Morounfoluwa',image: "../images/team/engr-john.jpeg", role: 'Founder & Lead Researcher' },
         date     : 'March 12, 2025',
         readTime : '8 min',
         tags     : ['ai', 'research', 'academic'],
@@ -30,7 +30,7 @@ const ARTICLES = [
         excerpt  : 'Lessons from reviewing hundreds of proposals — and the five structural mistakes that cost applicants the most.',
         url      : './posts/grant-writing-that-works.html',
         category : 'Writing',
-        author   : { name: 'Murewa Newo', initials: 'MN', role: 'Marketing Lead' },
+        author   : { name: 'Murewa Newo', image: "../images/team/m-newo.jpeg", role: 'Marketing Lead' },
         date     : 'February 5, 2025',
         readTime : '7 min',
         tags     : ['writing', 'grants', 'research'],
@@ -42,7 +42,7 @@ const ARTICLES = [
         excerpt  : 'Understanding how applicant tracking systems score your CV — and the simple fixes that make all the difference.',
         url      : './posts/the-ats-problem.html',
         category : 'Career',
-        author   : { name: 'Stephen Umurie', initials: 'SU', role: 'Technical Lead' },
+        author   : { name: 'Stephen Umurie', image: "../images/team/s-umurie.png ", role: 'Technical Lead' },
         date     : 'January 20, 2025',
         readTime : '4 min',
         tags     : ['career', 'cv', 'jobs'],
@@ -160,7 +160,7 @@ function renderArticlesGrid(filterTag = 'all') {
         <p>${a.excerpt}</p>
         <div class="article-card-small__footer">
           <div class="article-card-small__author">
-            <div class="article-av">${a.author.initials}</div>
+            <div class="article-av" style="background-image: url(${a.author.image}); background-size: cover"></div>
             <span>${a.author.name}</span>
           </div>
           <span>${a.readTime} read</span>
